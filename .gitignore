@@ -1,0 +1,8 @@
+### JetBrains
+.idea/
+
+### Node
+node_modules/
+
+### Project
+config/config.json

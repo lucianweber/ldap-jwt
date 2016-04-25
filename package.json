@@ -1,0 +1,24 @@
+{
+  "name": "ldap-jwt",
+  "version": "1.0.0",
+  "description": "Lightweight node.js based web service that provides user authentication against LDAP server (Active Directory / Windows network) credentials and returns a JSON Web Token.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ldap",
+    "jwt"
+  ],
+  "author": "Lucian Weber <lucian@weber.xyz>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.15.0",
+    "cors": "2.7.1",
+    "express": "4.13.4",
+    "jwt-simple": "0.5.0",
+    "ldapauth-fork": "2.5.2",
+    "moment": "2.13.0",
+    "promise": "^7.1.1"
+  }
+}
