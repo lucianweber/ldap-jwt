@@ -1,4 +1,4 @@
-var settings = require('./config/config.test.json');
+var settings = require('./config/config.json');
 
 var bodyParser = require('body-parser');
 var jwt = require('jwt-simple');
