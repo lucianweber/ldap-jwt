@@ -50,7 +50,7 @@ app.post('/authenticate', function (req, res) {
 
 				console.log(err);
 
-				if (err.name === 'InvalidCredentialsError') {
+				if (err.name === 'InvalidCredentialsError' || err.name === 'NoSuchObjectError' || (typeof err === 'string' && err.match(/no such user/i)) ) {
 					res.status(401).send({ error: 'Wrong user or password'});
 				} else {
 					// ldapauth-fork or underlying connections may be in an unusable state.
