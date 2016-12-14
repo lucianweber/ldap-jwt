@@ -1,0 +1,12 @@
+# From .gitignore
+.idea/
+node_modules/
+config/config.json
+
+# Others
+.git
+.gitignore
+.DS_Store
+.dockerignore
+Dockerfile
+README.md
