@@ -75,7 +75,7 @@ app.post('/verify', function (req, res) {
 		try {
 			var decoded = jwt.decode(token, app.get('jwtTokenSecret'));
 
-			if (decoded.exp <= Date.now()) {
+			if (decoded.exp <= moment().format("X")) {
 				res.status(400).send({ error: 'Access token has expired'});
 			} else {
 				res.json({
