@@ -78,11 +78,7 @@ app.post('/verify', function (req, res) {
 			if (decoded.exp <= parseInt(moment().format("X"))) {
 				res.status(400).send({ error: 'Access token has expired'});
 			} else {
-				res.json({
-					user_name: decoded.user_name,
-					full_name: decoded.full_name,
-					mail: decoded.mail
-				});
+				res.json(decoded);
 			}
 		} catch (err) {
 			res.status(500).send({ error: 'Access token could not be decoded'});

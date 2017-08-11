@@ -55,6 +55,7 @@ Heavily based on the work of [gregfroese/ldapservice](https://github.com/gregfro
 
 ```json
 {
+  "exp":1495058246
   "user_name": "euler",
   "full_name": "Leonhard Euler",
   "mail": "euler@ldap.forumsys.com"

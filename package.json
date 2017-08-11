@@ -1,6 +1,6 @@
 {
   "name": "ldap-jwt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight node.js based web service that provides user authentication against LDAP server (Active Directory / Windows network) credentials and returns a JSON Web Token.",
   "main": "index.js",
   "scripts": {
