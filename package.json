@@ -18,7 +18,7 @@
     "cors": "2.7.1",
     "express": "4.13.4",
     "jwt-simple": "0.5.0",
-    "ldapauth-fork": "2.5.2",
+    "ldapauth-fork": "github:flywheel-io/node-ldapauth-fork#starttls",
     "moment": "2.21.0",
     "promise": "^7.1.1"
   }

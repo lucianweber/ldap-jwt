@@ -2,7 +2,7 @@
 #   docker build -t ldap-jwt .
 #   docker run -p 3000:3000 --rm -it -v "$(pwd)/config/config.test.json:/usr/src/app/config/config.json" ldap-jwt
 
-FROM node:6.9.2
+FROM node:10.14.2
 
 ENV LDAPJWT_BASE_DIR="/usr/src/app"
 EXPOSE 3000
